@@ -8,6 +8,7 @@ body {
 
 ul{
     list-style: none;
+    color: #2e2f42;
 } 
 
 .header{
@@ -46,6 +47,7 @@ ul{
 .header-menu-list {
     color:#2e2f42;
     font-style: normal;
+    
 }
 
 .header-menu-item {
@@ -72,10 +74,12 @@ ul{
 
 .header-address {
     font-style: normal;
+    color:#2e2f42
 }
 
 .header-contact-list {
     font-style: normal;
+    color: #2e2f42
 }
 
 .header-contact-item {
@@ -85,7 +89,8 @@ ul{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        /*color: #434455;*/
+        color: #2e2f42;
         
 }
 
@@ -95,7 +100,9 @@ ul{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        /*color: #434455;*/
+        color: #2e2f42;
+
         font-style:normal;
 }
 
