@@ -188,7 +188,7 @@ ul{
 
 .team-image 
 {
-    width:"264" height="260"
+    
 
 }
 
@@ -235,8 +235,7 @@ font-family: "Roboto", sans-serif;
 .portfolio-app {}
 
 .portfolio-image {
-    width:"360";
-    height:"300";
+   
 }
 
 .portfolio-app-name {
@@ -259,8 +258,7 @@ ont-family: "Roboto", sans-serif;
 }
 
 .footer {
-    width: 1440px;
-        height: 312px;
+   
     
         background: #2e2f42;
 }
