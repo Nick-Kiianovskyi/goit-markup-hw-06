@@ -232,7 +232,9 @@ font-family: "Roboto", sans-serif;
 
 .portfolio-list {}
 
-.portfolio-app {}
+.portfolio-app {
+    background-color: #FFFFFF;
+}
 
 .portfolio-image {
    
