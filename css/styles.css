@@ -230,13 +230,16 @@ font-family: "Roboto", sans-serif;
 
 }
 
-.portfolio-list {}
+.portfolio-list {
+    background-color: #FFFFFF;
+}
 
 .portfolio-app {
     background-color: #FFFFFF;
 }
 
 .portfolio-image {
+    background-color: #FFFFFF;
    
 }
 
@@ -247,6 +250,7 @@ font-family: "Roboto", sans-serif;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        background-color: #FFFFFF;
 }
 
 .portfolio-app-text {
@@ -256,6 +260,7 @@ ont-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    background-color: #FFFFFF;
 
 }
 
