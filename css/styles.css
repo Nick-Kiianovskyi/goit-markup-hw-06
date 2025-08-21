@@ -432,13 +432,15 @@ ont-family: "Roboto", sans-serif;
         background: #2e2f42;
         width: 1440px;
             height: 312px;
+            padding: 100px 0;
 }
 .footer-container {
     width: 264px;
     height: 112px;
     margin-left: 156px;
     /* или другой отступ, чтобы выровнять по макету */
-    padding-top: 100px;
+    /*!padding-top: 100px;*/
+   
     /* чтобы текст был ближе к центру футера */
     display: flex;
     flex-direction: column;
@@ -453,6 +455,8 @@ ont-family: "Roboto", sans-serif;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-logo-studio
@@ -472,4 +476,5 @@ ont-family: "Roboto", sans-serif;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
 }
