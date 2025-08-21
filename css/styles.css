@@ -175,6 +175,7 @@ ul{
 
 .hero {
     margin-top: 24px;
+    padding: 188px 0;
 }
 .hero-wrap{
     background-color: #2e2f42;
@@ -200,25 +201,32 @@ display: flex;
         letter-spacing: 0.02em;
         text-align: center;
         color: white;
-        max-width: 600px;
-       /* height: 120px;*/
-        margin: 0 auto;
+        max-width: 496px;
+        margin: 0 auto;         
+         
 }
 
 .hero-order-btn {
-    margin-top: 48px;
-    background: #4d5ae5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    cursor: pointer;
+    
+    display: block;
+        margin: 48px auto 0;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        background-color: #4d5ae5;
+        border-radius: 4px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        cursor: pointer;
 }
 .hero-order-btn:hover
 { 
     background-color: #404BBF;
+
 }
 .hero-order-btn:focus {
     background-color: #404BBF;
