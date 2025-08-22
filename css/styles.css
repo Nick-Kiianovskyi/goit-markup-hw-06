@@ -180,6 +180,8 @@ ul{
 .hero {
     margin-top: 24px;
     padding: 188px 0;
+    background-color: #2e2f42;
+        color: #404bbf;
 }
 .hero-wrap{
     background-color: #2e2f42;
