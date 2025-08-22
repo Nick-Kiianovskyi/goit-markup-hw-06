@@ -139,7 +139,7 @@ ul{
     
     color: #2e2f42;
     display: flex;
-    /*gap: 40px;*/
+    gap: 40px;
 }
 
 .header-contact-item {
