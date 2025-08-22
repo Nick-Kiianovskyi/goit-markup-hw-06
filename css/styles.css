@@ -388,7 +388,8 @@ margin-bottom: 8px;
 /*?=============PORTFOLIO =========*/
 
 .portfolio {
-    margin-bottom: 120;
+padding: 120px 0;
+
 }
 
 .portfolio-title {
@@ -400,8 +401,8 @@ font-family: "Roboto", sans-serif;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-bottom: 72px;
     padding-top: 120px;
+    margin-bottom: 72px;
 
 }
 
@@ -409,14 +410,12 @@ font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     
     display: flex;
-        flex-wrap: wrap;
-        /* ✅ позволяет переносить элементы на новую строку */
-        gap: 24px;
-        /* ✅ расстояние между карточками */
-        justify-content: center;
-        /* ✅ выравнивание по центру */
-        padding: 0;
-        list-style: none;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    /*gap: 24px;*/
+    justify-content: center;   
+    padding: 0;
+    list-style: none;
 }
 
 .portfolio-app {
@@ -432,9 +431,18 @@ flex-basis: calc((100% - 48px) / 3);
            
 }
 
+.portfolio-app:first-child {
+    width: calc((100% - 48px) / 3);
+}
 .portfolio-image {
     background-color: #FFFFFF;
    
+}
+
+.portfolio-app-card {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-app-name {
@@ -445,6 +453,7 @@ flex-basis: calc((100% - 48px) / 3);
         letter-spacing: 0.02em;
         color: #2e2f42;
         background-color: #FFFFFF;
+        margin-bottom: 8px;
 }
 
 .portfolio-app-text {
