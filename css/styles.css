@@ -476,6 +476,7 @@ font-family: "Roboto", sans-serif;
         width: 1440px;
             height: 312px;
             padding: 100px 0;
+            display: inline-block;
 }
 .footer-container {
     width: 264px;
