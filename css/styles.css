@@ -221,7 +221,7 @@ ul{
     color:#404bbf;
 }
 .header-contact-link:focus {
-    
+    color: #404bbf;
 }
 
 .hero {
@@ -354,6 +354,16 @@ display: flex;
     border-radius: 4px;
     width: 64px;
     height: 64px;
+}
+.icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 
 .direction-text {
@@ -690,7 +700,7 @@ justify-content: space-between;
     align-items: flex-start;
     }
         
-}
+
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
