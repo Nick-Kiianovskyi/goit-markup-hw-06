@@ -446,6 +446,7 @@ display: flex;
 
 .team-item:hover .overlay {
     opacity: 1;
+    background-color: #404bbf
 }
 
 .overlay-text {
@@ -553,11 +554,10 @@ margin-bottom: 8px;
 
 .social-icon:hover,
 .social-icon:focus {
-    /*background-color: #404bbf;*/
-background-color: #31d0aa;
+    
+background-color: #404bbf
 
-    /*?background-color: aquamarine;*/
-
+   
 }
 
 .social-svg {
