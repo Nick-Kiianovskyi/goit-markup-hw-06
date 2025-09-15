@@ -948,6 +948,11 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding: 72px 24px 24px 24px;
 }
 
+.modal:hover,
+.modal:focus {
+    fill: #ffffff;
+}
+
 .modal-close{
    /* display: block;
     margin-left: auto;*/
@@ -995,6 +1000,12 @@ fill: #ffffff;
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.icon-close:hover,
+.icon-close:focus {
+    fill: #ffffff;
+}
+
 .modal-title {
     
         font-weight: 500;
