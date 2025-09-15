@@ -982,6 +982,10 @@ border: none;
 fill: #ffffff;
 }
 
+.modal-close:hover .icon-close,
+.modal-close:focus .icon-close {
+    fill: #ffffff;
+}
 
 .modal-close-ico {
     display: inline-flex; 
