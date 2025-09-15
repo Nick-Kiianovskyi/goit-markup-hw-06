@@ -1074,13 +1074,16 @@ fill: #ffffff;
 .modal-icon{
     position: absolute;
     /*fill: #5D3FD3;*/
-    left:19px;
+    left: 16px;
     /*top:10px;*/
     top: 50%;
     transform:translateY(-50%);
-    transition: border-color 300ms linear;
+    /*transition: border-color 300ms linear;*/
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.modal-icon:focus {
+    fill: #4D5AE5;
+}
 .modal-input-wrap{
     position: relative;
 }   
