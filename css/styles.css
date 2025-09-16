@@ -1190,7 +1190,7 @@ input[type="checkbox"]:checked+.check-text::before {
     border: 0;
 }
 
-cb-icon {
+.cb-icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1199,7 +1199,7 @@ cb-icon {
     font-size: 16px;
     color: rgb(46, 46, 46);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 8px;
 }
 
