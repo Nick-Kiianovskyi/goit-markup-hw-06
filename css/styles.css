@@ -1190,6 +1190,29 @@ input[type="checkbox"]:checked+.check-text::before {
     border: 0;
 }
 
+cb-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    color: rgb(46, 46, 46);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-right: 8px;
+}
+
+.cb-icon-svg {
+    fill: currentColor;
+    width: 16px;
+    height: 16px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input[type="checkbox"]:checked+.check-text .cb-icon-svg {
+    fill: #5D3FD3;
+}
 .modal-close-ico{
 display: inline-flex;
     align-items: center;
