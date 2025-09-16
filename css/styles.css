@@ -1086,7 +1086,10 @@ fill: #ffffff;
     /*margin-bottom: 24px;*/
     margin-bottom: 8px;
     margin-bottom: 16px;
-}
+    }
+.modal-field-cb{
+    margin-bottom: 24px;
+}    
 .modal-icon{
     position: absolute;
     /*fill: #5D3FD3;*/
