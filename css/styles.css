@@ -1166,7 +1166,11 @@ font-weight: 400;
 }
 
 input[type="checkbox"]:checked+.check-text::before {
-    background-color: #5D3FD3;
+   
+    background-color: #404bbf;
+    border: none;
+    fill:#F4F4FD;
+    
 }
 
 
@@ -1175,8 +1179,10 @@ input[type="checkbox"]:checked+.check-text::before {
     line-height: 133%;
         text-decoration: underline;
         text-decoration-skip-ink: none;
-        color: #5D3FD3;
-}
+        color:#4d5ae5;
+        
+        };
+       
 
 .visually-hidden {
     position: absolute;
