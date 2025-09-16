@@ -1170,7 +1170,7 @@ input[type="checkbox"]:checked+.check-text::before {
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
-    
+
 }
 
 
@@ -1220,7 +1220,10 @@ input[type="checkbox"]:checked+.check-text::before {
 }
 
 input[type="checkbox"]:checked+.check-text .cb-icon-svg {
-    fill: #5D3FD3;
+    /*fill: #5D3FD3;*/
+    background-color:#404bbf;
+    border: none;
+    fill:#F4F4FD;
 }
 .modal-close-ico{
 display: inline-flex;
