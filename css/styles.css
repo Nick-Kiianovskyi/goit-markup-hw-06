@@ -1237,12 +1237,12 @@ input[type="checkbox"]:checked+.check-text::before {
     fill:#F4F4FD;
 }*/
 
-input[type="checkbox"]:checked+.check-text .cb_icon {
+input[type="checkbox"]:checked+.check-text .cb-icon {
     background-color: #404bbf;
     border: none;
 }
 
-input[type="checkbox"]:checked+.check-text .cb_icon_svg {
+input[type="checkbox"]:checked+.check-text .cb-icon_svg {
     fill: #F4F4FD;
 }
 .modal-close-ico{
