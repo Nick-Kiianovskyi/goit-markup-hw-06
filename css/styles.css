@@ -1131,6 +1131,7 @@ fill: #ffffff;
 .modal-text:focus {
     border-color: #4D5AE5;
 }
+/*
 .check-text{
 font-weight: 400;
     font-size: 12px;
@@ -1138,6 +1139,37 @@ font-weight: 400;
     letter-spacing: 0.04em;
     color: #778899;
 }
+*/
+
+.check-text {
+    position: relative;
+    padding-left: 24px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+
+.check-text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    border: 1px solid #5D3FD3;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+input[type="checkbox"]:checked+.check-text::before {
+    background-color: #5D3FD3;
+}
+
+
 
 .check-link{
     line-height: 133%;
@@ -1145,6 +1177,19 @@ font-weight: 400;
         text-decoration-skip-ink: none;
         color: #5D3FD3;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 .modal-close-ico{
 display: inline-flex;
     align-items: center;
