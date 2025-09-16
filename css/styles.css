@@ -1001,7 +1001,7 @@ fill: #ffffff;
 .icon-close {
     width: 8px;
     height: 8px;
-    fill: #2e2f42;
+    /*fill: #2e2f42;*/
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1085,6 +1085,7 @@ fill: #ffffff;
     
     /*margin-bottom: 24px;*/
     margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 .modal-icon{
     position: absolute;
