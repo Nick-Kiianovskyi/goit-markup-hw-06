@@ -1240,10 +1240,12 @@ input[type="checkbox"]:checked+.check-text::before {
 input[type="checkbox"]:checked+.check-text .cb-icon {
     background-color: #404bbf;
     border: none;
+    fill: #F4F4FD;
 }
 
 input[type="checkbox"]:checked+.check-text .cb-icon_svg {
     fill: #F4F4FD;
+    
 }
 .modal-close-ico{
 display: inline-flex;
