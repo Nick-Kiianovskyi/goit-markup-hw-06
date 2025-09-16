@@ -1087,6 +1087,11 @@ fill: #ffffff;
     margin-bottom: 8px;
     /*margin-bottom: 16px;*/
     }
+
+.modal-field-comment {
+ margin-bottom: 16px;
+  }
+
 .modal-field-cb{
     margin-bottom: 24px;
 }    
